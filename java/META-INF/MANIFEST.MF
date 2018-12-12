@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Class-Path: attoparser-2.0.4.RELEASE.jar javax.transaction-api-1.2.jar
+  tomcat-embed-el-8.5.34.jar spring-boot-starter-json-2.0.5.RELEASE.ja
+ r antlr-2.7.7.jar spring-data-jpa-2.0.10.RELEASE.jar spring-boot-star
+ ter-2.0.5.RELEASE.jar logback-classic-1.2.3.jar asm-5.0.4.jar jackson
+ -datatype-jdk8-2.9.6.jar validation-api-2.0.1.Final.jar dom4j-1.6.1.j
+ ar jackson-databind-2.9.6.jar spring-boot-starter-thymeleaf-2.0.5.REL
+ EASE.jar tomcat-embed-websocket-8.5.34.jar jboss-logging-3.3.2.Final.
+ jar spring-boot-starter-logging-2.0.5.RELEASE.jar spring-jdbc-5.0.9.R
+ ELEASE.jar spring-boot-starter-jdbc-2.0.5.RELEASE.jar spring-data-com
+ mons-2.0.10.RELEASE.jar HikariCP-2.7.9.jar jackson-annotations-2.9.0.
+ jar spring-data-rest-webmvc-3.0.10.RELEASE.jar classmate-1.3.4.jar to
+ mcat-embed-core-8.5.34.jar accessors-smart-1.2.jar jackson-module-par
+ ameter-names-2.9.6.jar slf4j-api-1.7.25.jar aspectjweaver-1.8.13.jar 
+ spring-security-config-5.0.8.RELEASE.jar spring-security-web-5.0.8.RE
+ LEASE.jar spring-security-core-5.0.8.RELEASE.jar hibernate-validator-
+ 6.0.12.Final.jar logback-core-1.2.3.jar jackson-datatype-jsr310-2.9.6
+ .jar spring-jcl-5.0.9.RELEASE.jar spring-boot-starter-data-rest-2.0.5
+ .RELEASE.jar spring-boot-starter-security-2.0.5.RELEASE.jar evo-infle
+ ctor-1.2.2.jar log4j-to-slf4j-2.10.0.jar hibernate-jpa-2.1-api-1.0.2.
+ Final.jar spring-beans-5.0.9.RELEASE.jar gson-2.8.5.jar spring-boot-s
+ tarter-aop-2.0.5.RELEASE.jar spring-aop-5.0.9.RELEASE.jar spring-cont
+ ext-5.0.9.RELEASE.jar spring-boot-2.0.5.RELEASE.jar spring-tx-5.0.9.R
+ ELEASE.jar thymeleaf-3.0.9.RELEASE.jar spring-data-rest-core-3.0.10.R
+ ELEASE.jar javax.annotation-api-1.3.2.jar json-smart-2.3.jar snakeyam
+ l-1.19.jar thymeleaf-spring5-3.0.9.RELEASE.jar thymeleaf-extras-java8
+ time-3.0.1.RELEASE.jar spring-boot-autoconfigure-2.0.5.RELEASE.jar sp
+ ring-webmvc-5.0.9.RELEASE.jar hibernate-core-5.2.17.Final.jar spring-
+ hateoas-0.25.0.RELEASE.jar spring-boot-starter-web-2.0.5.RELEASE.jar 
+ spring-boot-starter-data-jpa-2.0.5.RELEASE.jar json-path-2.4.0.jar sp
+ ring-core-5.0.9.RELEASE.jar h2-1.4.197.jar log4j-api-2.10.0.jar hiber
+ nate-commons-annotations-5.0.1.Final.jar jul-to-slf4j-1.7.25.jar spri
+ ng-plugin-core-1.2.0.RELEASE.jar spring-aspects-5.0.9.RELEASE.jar spr
+ ing-boot-starter-tomcat-2.0.5.RELEASE.jar unbescape-1.1.5.RELEASE.jar
+  jandex-2.0.3.Final.jar jackson-core-2.9.6.jar spring-web-5.0.9.RELEA
+ SE.jar spring-expression-5.0.9.RELEASE.jar mysql-connector-java-5.1.4
+ 7.jar spring-orm-5.0.9.RELEASE.jar javassist-3.22.0-GA.jar
+Main-Class: Main.Application
+

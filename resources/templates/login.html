@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:spring="http://java.sun.com/xml/ns/javaee" xmlns:th="http://www.w3.org/1999/xhtml"
+      xmlns:c="http://xmlns.jcp.org/xml/ns/javaee">
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Вход в статистику</title>
+    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}"/>
+    <script type="text/javascript" th:src="@{/js/jquery.js}"></script>
+    <script type="text/javascript" th:src="@{/js/login.js}"></script>
+</head>
+<body>
+<hgroup>
+  <h1>Статистика лифтов</h1>
+  <h3>Введите имя пользователя и пароль</h3>
+</hgroup>
+<div th:if="${param.error}">
+    <h3 class="h3center">Имя пользователя или пароль введены непраавильно!</h3>
+</div>
+<div th:if="${param.logout}">
+    <h3 class="h3center">Вы вышли из системы.</h3>
+</div>
+
+<form th:action="@{/login}" method="post">
+  <div class="group">
+    <input type="text" name="username"><span class="highlight"></span><span class="bar"></span>
+    <label>Имя пользователя</label>
+  </div>
+  <div class="group">
+    <input type="password" name="password"><span class="highlight"></span><span class="bar"></span>
+    <label>Пароль</label>
+  </div>
+  <input type="submit" class="button buttonBlue" value="Вход">
+  </input>
+</form>
+
+</body>
+</html>
